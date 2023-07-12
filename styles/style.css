@@ -151,14 +151,62 @@ nav>ul {
     gap: 20px;
 }
 .style{
-    background-image: url(Rectangle\ 9.png);
+    background-image: url('../Flower Asset/Rectangle 9.png');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center; 
     height: 300px;
     padding-top: 100px;
+    margin: 100px 200px 100px 260px;
+
 }
-.email{
+.email-of{
     border-radius: 10px;
     padding: 10px 100px;
 }
+.foot{
+    display: block;
+    background: black;
+    width: 100%;
+flex-shrink: 0;
+padding-top: 120px;
+padding-bottom: 80px;
+}
+.flower{
+    color:#E55473;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+line-height: normal;
+
+}
+.shop{
+    color:white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+line-height: normal;
+
+}
+.foot-p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    
+    font-size: 18px;
+    
+    font-weight: 400;
+    line-height: 30px;
+line-height: normal;
+}
+.foot-z{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: normal;
+}
+
+
+
