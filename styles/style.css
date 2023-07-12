@@ -1,0 +1,36 @@
+/* Common shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+/* NAv related styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h3{
+    font-family: 'Grandiflora One', serif;
+    margin-left: 6%;
+}
+nav li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.nav-title{
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+}
+.text-temporary{
+    color: #a1332b;
+}
+nav > ul{
+    display: flex;
+}
