@@ -8,16 +8,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:0 200px;
 }
 nav h3{
     font-family: 'Grandiflora One', serif;
-    margin-left: 6%;
+    
 }
 nav li{
     font-family: 'Roboto', sans-serif;
     list-style: none;
-    margin-right: 50px;
     margin-top: 15px;
+    margin-right: 50px;
 }
 nav a{
     text-decoration: none;
@@ -33,4 +34,16 @@ nav a{
 }
 nav > ul{
     display: flex;
+}
+/*  banner related styles */
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-description{
+    /* padding: 30px 30px 30px 150px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 200px;
+    padding-top: 40px;
 }
