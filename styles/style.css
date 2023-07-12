@@ -49,7 +49,7 @@ nav>ul {
 }
 
 .banner-description {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 30px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,10 +119,12 @@ nav>ul {
 }
 
 .section-social {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 30px 30px;
     display: block;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 40px;
 }
 
 .section-title {
@@ -139,13 +141,12 @@ nav>ul {
     font-weight: 400;
     line-height: 25px;
 }
-.all-image{
-    padding: 0 180px;
-    margin-left: 180px;
-}
-.col{
-    width: 242px;
-    height: 296px;
-    flex-shrink: 0;
-    margin: 10px;
+
+.column{
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 342px;
+    height: 396px;
+    display: flex;
+    gap: 20px;
 }
